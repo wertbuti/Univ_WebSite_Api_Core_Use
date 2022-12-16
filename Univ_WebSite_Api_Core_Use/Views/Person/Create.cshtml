@@ -1,0 +1,24 @@
+﻿@using Univ_WebSite_Api_Core_Use.Models
+@model Person
+
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+
+<form action="Create" method="post">
+
+    نام<input type="text" name="Name" value="قادر" /><br />
+    نام خانوادگی<input type="text" name="Family" value="قادری" /><br />
+    تاریخ تولد<input type="date" name="BirthDate" value="2020-02-16" /><br />
+    مرد<input type="radio" name="Sex" value="True" checked /><br />
+    زن<input type="radio" name="Sex" value="False" /><br />
+    تصویر<input type="text" name="Picture" value="cccccc" /><br />
+
+
+    <input type="submit" value="ارسال" />
+
+</form>
